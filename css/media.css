@@ -1,0 +1,275 @@
+@media (max-width: 991px) {
+	.header-top {
+		height: 60px;
+		justify-content: flex-start;
+	}
+	.header-top img {
+		vertical-align: middle;
+	}
+	.header-top__contact {
+		display: none;
+	}
+	.header-top__logo {
+		margin-left: 15px;
+	}
+	.header-top__burger {
+		display: block;
+	}
+	.nav {
+		display: none;
+	}
+	.aligner {
+		padding: 0 30px;
+	}
+	.slick-dots {
+		display: none !important
+	}
+	.gallery {
+		height: 40vw;
+	}
+	.gallery .wrapper {
+		height: inherit;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.gallery-list  {
+		top: 0;
+		margin-top: 30px;
+	}
+	.gallery .tours-link span {
+		margin-left: 15px;
+	}
+	.gallery .tours-link {
+		margin: 25px auto;
+	}
+	.discover-img {
+		width: 100%;
+	}
+	.discover-tab {
+		padding: 0 3rem;
+		width: 90%;
+		margin:auto;
+	}
+	.discover-tab h4 {
+		text-align: center;
+	}
+	.service {
+		justify-content: center;
+	}
+	.service-item {
+		width: 40%;
+		margin-right: 25px;
+	}
+	.team-list {
+		justify-content: center;
+	}
+	.team-list__item {
+		width: 40%;
+		margin-bottom: 8rem;
+		margin-right: 25px;
+	}
+	.testimonial-list {
+		flex-wrap: wrap;
+		justify-content: center
+	}
+	.testimonial-list__item {
+		width: 40%;
+		margin-right: 25px;
+		margin-bottom: 5rem;
+	}
+	.achievement-list__caption {
+		height: 20vw !important;
+	}
+	.achievement-list__caption h1 {
+		font-size:56px;
+	}
+	.achievement-list__caption h4 {
+		font-size:20px;
+		max-width: 100%;
+	}
+	.padder {
+		padding:25px 0;
+	}
+	.footer-wrap {
+		flex-wrap: wrap;
+	}
+	.footer-contact {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.gallery-list__link span {
+		max-width: 100%;
+	}
+	.footer-list {
+		display: flex;
+		align-items: center;
+	}
+	.footer-list__item {
+		margin-right: 3rem;
+		display: flex;
+		align-items: center;
+	}
+	.footer-list__item:last-child {
+		max-resolution: res;-right: 0;
+	}
+	.footer-list__item i {
+		width: auto;
+		vertical-align: middle;
+	}
+	.footer-news {
+		margin-left: 0;
+	}
+}
+@media (max-width: 792px) {
+	.header-slider .slider-content {
+		height: 50vw;
+	}
+	.header-slider .slider-content h2 {
+		font-size: 20px;
+		margin: 8px 0;
+	}
+	.header-slider .slider-content a {
+		line-height: 30px;
+	}
+	.header-slider .slider-content h2 span {
+		font-size:22px;
+	}
+	.header-slider .slick-list div.slick-slide {
+		height: 60vw;
+		background-size: cover !important;
+	}
+	.gallery {
+		height: auto;
+	}
+	.tabs-content__link {
+		display: flex;
+	}
+	.gallery-list__link {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 2rem;
+	}
+	.achievement-list {
+		flex-wrap: wrap;
+	}
+	.achievement-list__item {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.achievement-list__caption {
+		height: 50vw !important;
+		padding: 15px;
+	}
+	.tour-list__img {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.tour-list__caption {
+		width: 100%;
+		border: 0;
+		padding: 12px 0;
+	}
+	.team-list__item {
+		width: 100%;
+	}
+	.offer h2 {
+		font-size: 36px;
+	}
+	.testimonial-list__item {
+		width: 100%;
+	}
+	.tour-list__caption .tour-price {
+		display: none
+	}
+	.footer-list {
+		display: block
+	}
+	.footer-bottom .wrapper .brands-list__item:first-child {
+		margin: 0;
+		margin-right:15px;
+	}
+	.footer-contact {
+		width: 49%;
+	}
+	.discover-tab h4 {
+		margin-top: 15px;
+		font-size: 24px;
+	}
+	.discover .tabs-caption {
+		display: block;
+		margin-top:0;
+		text-align:center;
+	}
+	.discover-tab {
+		padding: 0;
+	}
+	.discover .tabs-caption li {
+		margin-bottom:10px;
+	}
+	.tabs-content__link {
+		display: block;
+		text-align:center;
+	}
+	.tabs-content__link .btn {
+		margin-bottom: 15px;
+	}
+	.service-item {
+		margin:15px auto;
+	}
+	.tour-list__img img {
+		height: auto;
+	}
+	.offer h2 {
+		font-size: 28px;
+	}
+	.testimonial-list__item {
+		margin-right:0;
+	}
+	.achievement h4 {
+		font-size: 24px;
+	}
+	.discount-caption h4 {
+		font-size: 36px;
+	}
+	.discount-form {
+		display: block;
+		margin:15px auto;
+		text-align: center;
+	}
+	.discount-form .btn {
+		margin-top: 1rem;
+	}
+	.footer-news {
+		margin: 1rem 0;
+	}
+	.footer .btn {
+		margin-top: 15px;
+	}
+	.footer-bottom .wrapper {
+		display: block;
+		padding: 20px 30px;
+	}
+	.footer-brands {
+		margin: 15px 0;
+	}
+	.discount-form__input input {
+		min-width: 220px;
+	}
+	.list-flex {
+		display: block;
+	}
+}
+
+@media (max-width: 596px) {
+	.footer-contact {
+		width: 100%;
+	}
+	.footer-news {
+		margin: 15px 0;
+	}
+	.service-item {
+		width: 100%;
+	}
+}
